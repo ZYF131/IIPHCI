@@ -1,0 +1,1806 @@
+@font-face {
+	font-family: 'thunews';
+	src:url('fonts/thunews.eot?jaw58s');
+	src:url('fonts/thunews.eot?#iefixjaw58s') format('embedded-opentype'),
+		url('fonts/thunews.ttf?jaw58s') format('truetype'),
+		url('fonts/thunews.woff?jaw58s') format('woff'),
+		url('fonts/thunews.svg?jaw58s#thunews') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: 'thunews';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.thunews-glass:before {
+	content: "\f000";
+}
+.thunews-music:before {
+	content: "\f001";
+}
+.thunews-search:before {
+	content: "\f002";
+}
+.thunews-envelope-o:before {
+	content: "\f003";
+}
+.thunews-heart:before {
+	content: "\f004";
+}
+.thunews-star:before {
+	content: "\f005";
+}
+.thunews-star-o:before {
+	content: "\f006";
+}
+.thunews-user:before {
+	content: "\f007";
+}
+.thunews-film:before {
+	content: "\f008";
+}
+.thunews-th-large:before {
+	content: "\f009";
+}
+.thunews-th:before {
+	content: "\f00a";
+}
+.thunews-th-list:before {
+	content: "\f00b";
+}
+.thunews-check:before {
+	content: "\f00c";
+}
+.thunews-close:before {
+	content: "\f00d";
+}
+.thunews-remove:before {
+	content: "\f00d";
+}
+.thunews-times:before {
+	content: "\f00d";
+}
+.thunews-search-plus:before {
+	content: "\f00e";
+}
+.thunews-search-minus:before {
+	content: "\f010";
+}
+.thunews-power-off:before {
+	content: "\f011";
+}
+.thunews-signal:before {
+	content: "\f012";
+}
+.thunews-cog:before {
+	content: "\f013";
+}
+.thunews-gear:before {
+	content: "\f013";
+}
+.thunews-trash-o:before {
+	content: "\f014";
+}
+.thunews-home:before {
+	content: "\f015";
+}
+.thunews-file-o:before {
+	content: "\f016";
+}
+.thunews-clock-o:before {
+	content: "\f017";
+}
+.thunews-road:before {
+	content: "\f018";
+}
+.thunews-download:before {
+	content: "\f019";
+}
+.thunews-arrow-circle-o-down:before {
+	content: "\f01a";
+}
+.thunews-arrow-circle-o-up:before {
+	content: "\f01b";
+}
+.thunews-inbox:before {
+	content: "\f01c";
+}
+.thunews-play-circle-o:before {
+	content: "\f01d";
+}
+.thunews-repeat:before {
+	content: "\f01e";
+}
+.thunews-rotate-right:before {
+	content: "\f01e";
+}
+.thunews-refresh:before {
+	content: "\f021";
+}
+.thunews-list-alt:before {
+	content: "\f022";
+}
+.thunews-lock:before {
+	content: "\f023";
+}
+.thunews-flag:before {
+	content: "\f024";
+}
+.thunews-headphones:before {
+	content: "\f025";
+}
+.thunews-volume-off:before {
+	content: "\f026";
+}
+.thunews-volume-down:before {
+	content: "\f027";
+}
+.thunews-volume-up:before {
+	content: "\f028";
+}
+.thunews-qrcode:before {
+	content: "\f029";
+}
+.thunews-barcode:before {
+	content: "\f02a";
+}
+.thunews-tag:before {
+	content: "\f02b";
+}
+.thunews-tags:before {
+	content: "\f02c";
+}
+.thunews-book:before {
+	content: "\f02d";
+}
+.thunews-bookmark:before {
+	content: "\f02e";
+}
+.thunews-print:before {
+	content: "\f02f";
+}
+.thunews-camera:before {
+	content: "\f030";
+}
+.thunews-font:before {
+	content: "\f031";
+}
+.thunews-bold:before {
+	content: "\f032";
+}
+.thunews-italic:before {
+	content: "\f033";
+}
+.thunews-text-height:before {
+	content: "\f034";
+}
+.thunews-text-width:before {
+	content: "\f035";
+}
+.thunews-align-left:before {
+	content: "\f036";
+}
+.thunews-align-center:before {
+	content: "\f037";
+}
+.thunews-align-right:before {
+	content: "\f038";
+}
+.thunews-align-justify:before {
+	content: "\f039";
+}
+.thunews-list:before {
+	content: "\f03a";
+}
+.thunews-dedent:before {
+	content: "\f03b";
+}
+.thunews-outdent:before {
+	content: "\f03b";
+}
+.thunews-indent:before {
+	content: "\f03c";
+}
+.thunews-video-camera:before {
+	content: "\f03d";
+}
+.thunews-image:before {
+	content: "\f03e";
+}
+.thunews-photo:before {
+	content: "\f03e";
+}
+.thunews-picture-o:before {
+	content: "\f03e";
+}
+.thunews-pencil:before {
+	content: "\f040";
+}
+.thunews-map-marker:before {
+	content: "\f041";
+}
+.thunews-adjust:before {
+	content: "\f042";
+}
+.thunews-tint:before {
+	content: "\f043";
+}
+.thunews-edit:before {
+	content: "\f044";
+}
+.thunews-pencil-square-o:before {
+	content: "\f044";
+}
+.thunews-share-square-o:before {
+	content: "\f045";
+}
+.thunews-check-square-o:before {
+	content: "\f046";
+}
+.thunews-arrows:before {
+	content: "\f047";
+}
+.thunews-step-backward:before {
+	content: "\f048";
+}
+.thunews-fast-backward:before {
+	content: "\f049";
+}
+.thunews-backward:before {
+	content: "\f04a";
+}
+.thunews-play:before {
+	content: "\f04b";
+}
+.thunews-pause:before {
+	content: "\f04c";
+}
+.thunews-stop:before {
+	content: "\f04d";
+}
+.thunews-forward:before {
+	content: "\f04e";
+}
+.thunews-fast-forward:before {
+	content: "\f050";
+}
+.thunews-step-forward:before {
+	content: "\f051";
+}
+.thunews-eject:before {
+	content: "\f052";
+}
+.thunews-chevron-left:before {
+	content: "\f053";
+}
+.thunews-chevron-right:before {
+	content: "\f054";
+}
+.thunews-plus-circle:before {
+	content: "\f055";
+}
+.thunews-minus-circle:before {
+	content: "\f056";
+}
+.thunews-times-circle:before {
+	content: "\f057";
+}
+.thunews-check-circle:before {
+	content: "\f058";
+}
+.thunews-question-circle:before {
+	content: "\f059";
+}
+.thunews-info-circle:before {
+	content: "\f05a";
+}
+.thunews-crosshairs:before {
+	content: "\f05b";
+}
+.thunews-times-circle-o:before {
+	content: "\f05c";
+}
+.thunews-check-circle-o:before {
+	content: "\f05d";
+}
+.thunews-ban:before {
+	content: "\f05e";
+}
+.thunews-arrow-left:before {
+	content: "\f060";
+}
+.thunews-arrow-right:before {
+	content: "\f061";
+}
+.thunews-arrow-up:before {
+	content: "\f062";
+}
+.thunews-arrow-down:before {
+	content: "\f063";
+}
+.thunews-mail-forward:before {
+	content: "\f064";
+}
+.thunews-share:before {
+	content: "\f064";
+}
+.thunews-expand:before {
+	content: "\f065";
+}
+.thunews-compress:before {
+	content: "\f066";
+}
+.thunews-plus:before {
+	content: "\f067";
+}
+.thunews-minus:before {
+	content: "\f068";
+}
+.thunews-asterisk:before {
+	content: "\f069";
+}
+.thunews-exclamation-circle:before {
+	content: "\f06a";
+}
+.thunews-gift:before {
+	content: "\f06b";
+}
+.thunews-leaf:before {
+	content: "\f06c";
+}
+.thunews-fire:before {
+	content: "\f06d";
+}
+.thunews-eye:before {
+	content: "\f06e";
+}
+.thunews-eye-slash:before {
+	content: "\f070";
+}
+.thunews-exclamation-triangle:before {
+	content: "\f071";
+}
+.thunews-warning:before {
+	content: "\f071";
+}
+.thunews-plane:before {
+	content: "\f072";
+}
+.thunews-calendar:before {
+	content: "\f073";
+}
+.thunews-random:before {
+	content: "\f074";
+}
+.thunews-comment:before {
+	content: "\f075";
+}
+.thunews-magnet:before {
+	content: "\f076";
+}
+.thunews-chevron-up:before {
+	content: "\f077";
+}
+.thunews-chevron-down:before {
+	content: "\f078";
+}
+.thunews-retweet:before {
+	content: "\f079";
+}
+.thunews-shopping-cart:before {
+	content: "\f07a";
+}
+.thunews-folder:before {
+	content: "\f07b";
+}
+.thunews-folder-open:before {
+	content: "\f07c";
+}
+.thunews-arrows-v:before {
+	content: "\f07d";
+}
+.thunews-arrows-h:before {
+	content: "\f07e";
+}
+.thunews-bar-chart:before {
+	content: "\f080";
+}
+.thunews-bar-chart-o:before {
+	content: "\f080";
+}
+.thunews-twitter-square:before {
+	content: "\f081";
+}
+.thunews-facebook-square:before {
+	content: "\f082";
+}
+.thunews-camera-retro:before {
+	content: "\f083";
+}
+.thunews-key:before {
+	content: "\f084";
+}
+.thunews-cogs:before {
+	content: "\f085";
+}
+.thunews-gears:before {
+	content: "\f085";
+}
+.thunews-comments:before {
+	content: "\f086";
+}
+.thunews-thumbs-o-up:before {
+	content: "\f087";
+}
+.thunews-thumbs-o-down:before {
+	content: "\f088";
+}
+.thunews-star-half:before {
+	content: "\f089";
+}
+.thunews-heart-o:before {
+	content: "\f08a";
+}
+.thunews-sign-out:before {
+	content: "\f08b";
+}
+.thunews-linkedin-square:before {
+	content: "\f08c";
+}
+.thunews-thumb-tack:before {
+	content: "\f08d";
+}
+.thunews-external-link:before {
+	content: "\f08e";
+}
+.thunews-sign-in:before {
+	content: "\f090";
+}
+.thunews-trophy:before {
+	content: "\f091";
+}
+.thunews-github-square:before {
+	content: "\f092";
+}
+.thunews-upload:before {
+	content: "\f093";
+}
+.thunews-lemon-o:before {
+	content: "\f094";
+}
+.thunews-phone:before {
+	content: "\f095";
+}
+.thunews-square-o:before {
+	content: "\f096";
+}
+.thunews-bookmark-o:before {
+	content: "\f097";
+}
+.thunews-phone-square:before {
+	content: "\f098";
+}
+.thunews-twitter:before {
+	content: "\f099";
+}
+.thunews-facebook:before {
+	content: "\f09a";
+}
+.thunews-facebook-f:before {
+	content: "\f09a";
+}
+.thunews-github:before {
+	content: "\f09b";
+}
+.thunews-unlock:before {
+	content: "\f09c";
+}
+.thunews-credit-card:before {
+	content: "\f09d";
+}
+.thunews-rss:before {
+	content: "\f09e";
+}
+.thunews-hdd-o:before {
+	content: "\f0a0";
+}
+.thunews-bullhorn:before {
+	content: "\f0a1";
+}
+.thunews-bell-o:before {
+	content: "\f0a2";
+}
+.thunews-certificate:before {
+	content: "\f0a3";
+}
+.thunews-hand-o-right:before {
+	content: "\f0a4";
+}
+.thunews-hand-o-left:before {
+	content: "\f0a5";
+}
+.thunews-hand-o-up:before {
+	content: "\f0a6";
+}
+.thunews-hand-o-down:before {
+	content: "\f0a7";
+}
+.thunews-arrow-circle-left:before {
+	content: "\f0a8";
+}
+.thunews-arrow-circle-right:before {
+	content: "\f0a9";
+}
+.thunews-arrow-circle-up:before {
+	content: "\f0aa";
+}
+.thunews-arrow-circle-down:before {
+	content: "\f0ab";
+}
+.thunews-globe:before {
+	content: "\f0ac";
+}
+.thunews-wrench:before {
+	content: "\f0ad";
+}
+.thunews-tasks:before {
+	content: "\f0ae";
+}
+.thunews-filter:before {
+	content: "\f0b0";
+}
+.thunews-briefcase:before {
+	content: "\f0b1";
+}
+.thunews-arrows-alt:before {
+	content: "\f0b2";
+}
+.thunews-group:before {
+	content: "\f0c0";
+}
+.thunews-users:before {
+	content: "\f0c0";
+}
+.thunews-chain:before {
+	content: "\f0c1";
+}
+.thunews-link:before {
+	content: "\f0c1";
+}
+.thunews-cloud:before {
+	content: "\f0c2";
+}
+.thunews-flask:before {
+	content: "\f0c3";
+}
+.thunews-cut:before {
+	content: "\f0c4";
+}
+.thunews-scissors:before {
+	content: "\f0c4";
+}
+.thunews-copy:before {
+	content: "\f0c5";
+}
+.thunews-files-o:before {
+	content: "\f0c5";
+}
+.thunews-paperclip:before {
+	content: "\f0c6";
+}
+.thunews-floppy-o:before {
+	content: "\f0c7";
+}
+.thunews-save:before {
+	content: "\f0c7";
+}
+.thunews-square:before {
+	content: "\f0c8";
+}
+.thunews-bars:before {
+	content: "\f0c9";
+	padding-top: 8px;
+	display: block;
+}
+.thunews-navicon:before {
+	content: "\f0c9";
+}
+.thunews-reorder:before {
+	content: "\f0c9";
+}
+.thunews-list-ul:before {
+	content: "\f0ca";
+}
+.thunews-list-ol:before {
+	content: "\f0cb";
+}
+.thunews-strikethrough:before {
+	content: "\f0cc";
+}
+.thunews-underline:before {
+	content: "\f0cd";
+}
+.thunews-table:before {
+	content: "\f0ce";
+}
+.thunews-magic:before {
+	content: "\f0d0";
+}
+.thunews-truck:before {
+	content: "\f0d1";
+}
+.thunews-pinterest:before {
+	content: "\f0d2";
+}
+.thunews-pinterest-square:before {
+	content: "\f0d3";
+}
+.thunews-google-plus-square:before {
+	content: "\f0d4";
+}
+.thunews-google-plus:before {
+	content: "\f0d5";
+}
+.thunews-money:before {
+	content: "\f0d6";
+}
+.thunews-caret-down:before {
+	content: "\f0d7";
+}
+.thunews-caret-up:before {
+	content: "\f0d8";
+}
+.thunews-caret-left:before {
+	content: "\f0d9";
+}
+.thunews-caret-right:before {
+	content: "\f0da";
+}
+.thunews-columns:before {
+	content: "\f0db";
+}
+.thunews-sort:before {
+	content: "\f0dc";
+}
+.thunews-unsorted:before {
+	content: "\f0dc";
+}
+.thunews-sort-desc:before {
+	content: "\f0dd";
+}
+.thunews-sort-down:before {
+	content: "\f0dd";
+}
+.thunews-sort-asc:before {
+	content: "\f0de";
+}
+.thunews-sort-up:before {
+	content: "\f0de";
+}
+.thunews-envelope:before {
+	content: "\f0e0";
+}
+.thunews-linkedin:before {
+	content: "\f0e1";
+}
+.thunews-rotate-left:before {
+	content: "\f0e2";
+}
+.thunews-undo:before {
+	content: "\f0e2";
+}
+.thunews-gavel:before {
+	content: "\f0e3";
+}
+.thunews-legal:before {
+	content: "\f0e3";
+}
+.thunews-dashboard:before {
+	content: "\f0e4";
+}
+.thunews-tachometer:before {
+	content: "\f0e4";
+}
+.thunews-comment-o:before {
+	content: "\f0e5";
+}
+.thunews-comments-o:before {
+	content: "\f0e6";
+}
+.thunews-bolt:before {
+	content: "\f0e7";
+}
+.thunews-flash:before {
+	content: "\f0e7";
+}
+.thunews-sitemap:before {
+	content: "\f0e8";
+}
+.thunews-umbrella:before {
+	content: "\f0e9";
+}
+.thunews-clipboard:before {
+	content: "\f0ea";
+}
+.thunews-paste:before {
+	content: "\f0ea";
+}
+.thunews-lightbulb-o:before {
+	content: "\f0eb";
+}
+.thunews-exchange:before {
+	content: "\f0ec";
+}
+.thunews-cloud-download:before {
+	content: "\f0ed";
+}
+.thunews-cloud-upload:before {
+	content: "\f0ee";
+}
+.thunews-user-md:before {
+	content: "\f0f0";
+}
+.thunews-stethoscope:before {
+	content: "\f0f1";
+}
+.thunews-suitcase:before {
+	content: "\f0f2";
+}
+.thunews-bell:before {
+	content: "\f0f3";
+}
+.thunews-coffee:before {
+	content: "\f0f4";
+}
+.thunews-cutlery:before {
+	content: "\f0f5";
+}
+.thunews-file-text-o:before {
+	content: "\f0f6";
+}
+.thunews-building-o:before {
+	content: "\f0f7";
+}
+.thunews-hospital-o:before {
+	content: "\f0f8";
+}
+.thunews-ambulance:before {
+	content: "\f0f9";
+}
+.thunews-medkit:before {
+	content: "\f0fa";
+}
+.thunews-fighter-jet:before {
+	content: "\f0fb";
+}
+.thunews-beer:before {
+	content: "\f0fc";
+}
+.thunews-h-square:before {
+	content: "\f0fd";
+}
+.thunews-plus-square:before {
+	content: "\f0fe";
+}
+.thunews-angle-double-left:before {
+	content: "\f100";
+}
+.thunews-angle-double-right:before {
+	content: "\f101";
+}
+.thunews-angle-double-up:before {
+	content: "\f102";
+}
+.thunews-angle-double-down:before {
+	content: "\f103";
+}
+.thunews-angle-left:before {
+	content: "\f104";
+}
+.thunews-angle-right:before {
+	content: "\f105";
+}
+.thunews-angle-up:before {
+	content: "\f106";
+}
+.thunews-angle-down:before {
+	content: "\f107";
+}
+.thunews-desktop:before {
+	content: "\f108";
+}
+.thunews-laptop:before {
+	content: "\f109";
+}
+.thunews-tablet:before {
+	content: "\f10a";
+}
+.thunews-mobile:before {
+	content: "\f10b";
+}
+.thunews-mobile-phone:before {
+	content: "\f10b";
+}
+.thunews-circle-o:before {
+	content: "\f10c";
+}
+.thunews-quote-left:before {
+	content: "\f10d";
+}
+.thunews-quote-right:before {
+	content: "\f10e";
+}
+.thunews-spinner:before {
+	content: "\f110";
+}
+.thunews-circle:before {
+	content: "\f111";
+}
+.thunews-mail-reply:before {
+	content: "\f112";
+}
+.thunews-reply:before {
+	content: "\f112";
+}
+.thunews-github-alt:before {
+	content: "\f113";
+}
+.thunews-folder-o:before {
+	content: "\f114";
+}
+.thunews-folder-open-o:before {
+	content: "\f115";
+}
+.thunews-smile-o:before {
+	content: "\f118";
+}
+.thunews-frown-o:before {
+	content: "\f119";
+}
+.thunews-meh-o:before {
+	content: "\f11a";
+}
+.thunews-gamepad:before {
+	content: "\f11b";
+}
+.thunews-keyboard-o:before {
+	content: "\f11c";
+}
+.thunews-flag-o:before {
+	content: "\f11d";
+}
+.thunews-flag-checkered:before {
+	content: "\f11e";
+}
+.thunews-terminal:before {
+	content: "\f120";
+}
+.thunews-code:before {
+	content: "\f121";
+}
+.thunews-mail-reply-all:before {
+	content: "\f122";
+}
+.thunews-reply-all:before {
+	content: "\f122";
+}
+.thunews-star-half-empty:before {
+	content: "\f123";
+}
+.thunews-star-half-full:before {
+	content: "\f123";
+}
+.thunews-star-half-o:before {
+	content: "\f123";
+}
+.thunews-location-arrow:before {
+	content: "\f124";
+}
+.thunews-crop:before {
+	content: "\f125";
+}
+.thunews-code-fork:before {
+	content: "\f126";
+}
+.thunews-chain-broken:before {
+	content: "\f127";
+}
+.thunews-unlink:before {
+	content: "\f127";
+}
+.thunews-question:before {
+	content: "\f128";
+}
+.thunews-info:before {
+	content: "\f129";
+}
+.thunews-exclamation:before {
+	content: "\f12a";
+}
+.thunews-superscript:before {
+	content: "\f12b";
+}
+.thunews-subscript:before {
+	content: "\f12c";
+}
+.thunews-eraser:before {
+	content: "\f12d";
+}
+.thunews-puzzle-piece:before {
+	content: "\f12e";
+}
+.thunews-microphone:before {
+	content: "\f130";
+}
+.thunews-microphone-slash:before {
+	content: "\f131";
+}
+.thunews-shield:before {
+	content: "\f132";
+}
+.thunews-calendar-o:before {
+	content: "\f133";
+}
+.thunews-fire-extinguisher:before {
+	content: "\f134";
+}
+.thunews-rocket:before {
+	content: "\f135";
+}
+.thunews-maxcdn:before {
+	content: "\f136";
+}
+.thunews-chevron-circle-left:before {
+	content: "\f137";
+}
+.thunews-chevron-circle-right:before {
+	content: "\f138";
+}
+.thunews-chevron-circle-up:before {
+	content: "\f139";
+}
+.thunews-chevron-circle-down:before {
+	content: "\f13a";
+}
+.thunews-html5:before {
+	content: "\f13b";
+}
+.thunews-css3:before {
+	content: "\f13c";
+}
+.thunews-anchor:before {
+	content: "\f13d";
+}
+.thunews-unlock-alt:before {
+	content: "\f13e";
+}
+.thunews-bullseye:before {
+	content: "\f140";
+}
+.thunews-ellipsis-h:before {
+	content: "\f141";
+}
+.thunews-ellipsis-v:before {
+	content: "\f142";
+}
+.thunews-rss-square:before {
+	content: "\f143";
+}
+.thunews-play-circle:before {
+	content: "\f144";
+}
+.thunews-ticket:before {
+	content: "\f145";
+}
+.thunews-minus-square:before {
+	content: "\f146";
+}
+.thunews-minus-square-o:before {
+	content: "\f147";
+}
+.thunews-level-up:before {
+	content: "\f148";
+}
+.thunews-level-down:before {
+	content: "\f149";
+}
+.thunews-check-square:before {
+	content: "\f14a";
+}
+.thunews-pencil-square:before {
+	content: "\f14b";
+}
+.thunews-external-link-square:before {
+	content: "\f14c";
+}
+.thunews-share-square:before {
+	content: "\f14d";
+}
+.thunews-compass:before {
+	content: "\f14e";
+}
+.thunews-caret-square-o-down:before {
+	content: "\f150";
+}
+.thunews-toggle-down:before {
+	content: "\f150";
+}
+.thunews-caret-square-o-up:before {
+	content: "\f151";
+}
+.thunews-toggle-up:before {
+	content: "\f151";
+}
+.thunews-caret-square-o-right:before {
+	content: "\f152";
+}
+.thunews-toggle-right:before {
+	content: "\f152";
+}
+.thunews-eur:before {
+	content: "\f153";
+}
+.thunews-euro:before {
+	content: "\f153";
+}
+.thunews-gbp:before {
+	content: "\f154";
+}
+.thunews-dollar:before {
+	content: "\f155";
+}
+.thunews-usd:before {
+	content: "\f155";
+}
+.thunews-inr:before {
+	content: "\f156";
+}
+.thunews-rupee:before {
+	content: "\f156";
+}
+.thunews-cny:before {
+	content: "\f157";
+}
+.thunews-jpy:before {
+	content: "\f157";
+}
+.thunews-rmb:before {
+	content: "\f157";
+}
+.thunews-yen:before {
+	content: "\f157";
+}
+.thunews-rouble:before {
+	content: "\f158";
+}
+.thunews-rub:before {
+	content: "\f158";
+}
+.thunews-ruble:before {
+	content: "\f158";
+}
+.thunews-krw:before {
+	content: "\f159";
+}
+.thunews-won:before {
+	content: "\f159";
+}
+.thunews-bitcoin:before {
+	content: "\f15a";
+}
+.thunews-btc:before {
+	content: "\f15a";
+}
+.thunews-file:before {
+	content: "\f15b";
+}
+.thunews-file-text:before {
+	content: "\f15c";
+}
+.thunews-sort-alpha-asc:before {
+	content: "\f15d";
+}
+.thunews-sort-alpha-desc:before {
+	content: "\f15e";
+}
+.thunews-sort-amount-asc:before {
+	content: "\f160";
+}
+.thunews-sort-amount-desc:before {
+	content: "\f161";
+}
+.thunews-sort-numeric-asc:before {
+	content: "\f162";
+}
+.thunews-sort-numeric-desc:before {
+	content: "\f163";
+}
+.thunews-thumbs-up:before {
+	content: "\f164";
+}
+.thunews-thumbs-down:before {
+	content: "\f165";
+}
+.thunews-youtube-square:before {
+	content: "\f166";
+}
+.thunews-youtube:before {
+	content: "\f167";
+}
+.thunews-xing:before {
+	content: "\f168";
+}
+.thunews-xing-square:before {
+	content: "\f169";
+}
+.thunews-youtube-play:before {
+	content: "\f16a";
+}
+.thunews-dropbox:before {
+	content: "\f16b";
+}
+.thunews-stack-overflow:before {
+	content: "\f16c";
+}
+.thunews-instagram:before {
+	content: "\f16d";
+}
+.thunews-flickr:before {
+	content: "\f16e";
+}
+.thunews-adn:before {
+	content: "\f170";
+}
+.thunews-bitbucket:before {
+	content: "\f171";
+}
+.thunews-bitbucket-square:before {
+	content: "\f172";
+}
+.thunews-tumblr:before {
+	content: "\f173";
+}
+.thunews-tumblr-square:before {
+	content: "\f174";
+}
+.thunews-long-arrow-down:before {
+	content: "\f175";
+}
+.thunews-long-arrow-up:before {
+	content: "\f176";
+}
+.thunews-long-arrow-left:before {
+	content: "\f177";
+}
+.thunews-long-arrow-right:before {
+	content: "\f178";
+}
+.thunews-apple:before {
+	content: "\f179";
+}
+.thunews-windows:before {
+	content: "\f17a";
+}
+.thunews-android:before {
+	content: "\f17b";
+}
+.thunews-linux:before {
+	content: "\f17c";
+}
+.thunews-dribbble:before {
+	content: "\f17d";
+}
+.thunews-skype:before {
+	content: "\f17e";
+}
+.thunews-foursquare:before {
+	content: "\f180";
+}
+.thunews-trello:before {
+	content: "\f181";
+}
+.thunews-female:before {
+	content: "\f182";
+}
+.thunews-male:before {
+	content: "\f183";
+}
+.thunews-gittip:before {
+	content: "\f184";
+}
+.thunews-gratipay:before {
+	content: "\f184";
+}
+.thunews-sun-o:before {
+	content: "\f185";
+}
+.thunews-moon-o:before {
+	content: "\f186";
+}
+.thunews-archive:before {
+	content: "\f187";
+}
+.thunews-bug:before {
+	content: "\f188";
+}
+.thunews-vk:before {
+	content: "\f189";
+}
+.thunews-weibo:before {
+	content: "\f18a";
+}
+.thunews-renren:before {
+	content: "\f18b";
+}
+.thunews-pagelines:before {
+	content: "\f18c";
+}
+.thunews-stack-exchange:before {
+	content: "\f18d";
+}
+.thunews-arrow-circle-o-right:before {
+	content: "\f18e";
+}
+.thunews-arrow-circle-o-left:before {
+	content: "\f190";
+}
+.thunews-caret-square-o-left:before {
+	content: "\f191";
+}
+.thunews-toggle-left:before {
+	content: "\f191";
+}
+.thunews-dot-circle-o:before {
+	content: "\f192";
+}
+.thunews-wheelchair:before {
+	content: "\f193";
+}
+.thunews-vimeo-square:before {
+	content: "\f194";
+}
+.thunews-try:before {
+	content: "\f195";
+}
+.thunews-turkish-lira:before {
+	content: "\f195";
+}
+.thunews-plus-square-o:before {
+	content: "\f196";
+}
+.thunews-space-shuttle:before {
+	content: "\f197";
+}
+.thunews-slack:before {
+	content: "\f198";
+}
+.thunews-envelope-square:before {
+	content: "\f199";
+}
+.thunews-wordpress:before {
+	content: "\f19a";
+}
+.thunews-openid:before {
+	content: "\f19b";
+}
+.thunews-bank:before {
+	content: "\f19c";
+}
+.thunews-institution:before {
+	content: "\f19c";
+}
+.thunews-university:before {
+	content: "\f19c";
+}
+.thunews-graduation-cap:before {
+	content: "\f19d";
+}
+.thunews-mortar-board:before {
+	content: "\f19d";
+}
+.thunews-yahoo:before {
+	content: "\f19e";
+}
+.thunews-google:before {
+	content: "\f1a0";
+}
+.thunews-reddit:before {
+	content: "\f1a1";
+}
+.thunews-reddit-square:before {
+	content: "\f1a2";
+}
+.thunews-stumbleupon-circle:before {
+	content: "\f1a3";
+}
+.thunews-stumbleupon:before {
+	content: "\f1a4";
+}
+.thunews-delicious:before {
+	content: "\f1a5";
+}
+.thunews-digg:before {
+	content: "\f1a6";
+}
+.thunews-pied-piper:before {
+	content: "\f1a7";
+}
+.thunews-pied-piper-alt:before {
+	content: "\f1a8";
+}
+.thunews-drupal:before {
+	content: "\f1a9";
+}
+.thunews-joomla:before {
+	content: "\f1aa";
+}
+.thunews-language:before {
+	content: "\f1ab";
+}
+.thunews-fax:before {
+	content: "\f1ac";
+}
+.thunews-building:before {
+	content: "\f1ad";
+}
+.thunews-child:before {
+	content: "\f1ae";
+}
+.thunews-paw:before {
+	content: "\f1b0";
+}
+.thunews-spoon:before {
+	content: "\f1b1";
+}
+.thunews-cube:before {
+	content: "\f1b2";
+}
+.thunews-cubes:before {
+	content: "\f1b3";
+}
+.thunews-behance:before {
+	content: "\f1b4";
+}
+.thunews-behance-square:before {
+	content: "\f1b5";
+}
+.thunews-steam:before {
+	content: "\f1b6";
+}
+.thunews-steam-square:before {
+	content: "\f1b7";
+}
+.thunews-recycle:before {
+	content: "\f1b8";
+}
+.thunews-automobile:before {
+	content: "\f1b9";
+}
+.thunews-car:before {
+	content: "\f1b9";
+}
+.thunews-cab:before {
+	content: "\f1ba";
+}
+.thunews-taxi:before {
+	content: "\f1ba";
+}
+.thunews-tree:before {
+	content: "\f1bb";
+}
+.thunews-spotify:before {
+	content: "\f1bc";
+}
+.thunews-deviantart:before {
+	content: "\f1bd";
+}
+.thunews-soundcloud:before {
+	content: "\f1be";
+}
+.thunews-database:before {
+	content: "\f1c0";
+}
+.thunews-file-pdf-o:before {
+	content: "\f1c1";
+}
+.thunews-file-word-o:before {
+	content: "\f1c2";
+}
+.thunews-file-excel-o:before {
+	content: "\f1c3";
+}
+.thunews-file-powerpoint-o:before {
+	content: "\f1c4";
+}
+.thunews-file-image-o:before {
+	content: "\f1c5";
+}
+.thunews-file-photo-o:before {
+	content: "\f1c5";
+}
+.thunews-file-picture-o:before {
+	content: "\f1c5";
+}
+.thunews-file-archive-o:before {
+	content: "\f1c6";
+}
+.thunews-file-zip-o:before {
+	content: "\f1c6";
+}
+.thunews-file-audio-o:before {
+	content: "\f1c7";
+}
+.thunews-file-sound-o:before {
+	content: "\f1c7";
+}
+.thunews-file-movie-o:before {
+	content: "\f1c8";
+}
+.thunews-file-video-o:before {
+	content: "\f1c8";
+}
+.thunews-file-code-o:before {
+	content: "\f1c9";
+}
+.thunews-vine:before {
+	content: "\f1ca";
+}
+.thunews-codepen:before {
+	content: "\f1cb";
+}
+.thunews-jsfiddle:before {
+	content: "\f1cc";
+}
+.thunews-life-bouy:before {
+	content: "\f1cd";
+}
+.thunews-life-buoy:before {
+	content: "\f1cd";
+}
+.thunews-life-ring:before {
+	content: "\f1cd";
+}
+.thunews-life-saver:before {
+	content: "\f1cd";
+}
+.thunews-support:before {
+	content: "\f1cd";
+}
+.thunews-circle-o-notch:before {
+	content: "\f1ce";
+}
+.thunews-ra:before {
+	content: "\f1d0";
+}
+.thunews-rebel:before {
+	content: "\f1d0";
+}
+.thunews-empire:before {
+	content: "\f1d1";
+}
+.thunews-ge:before {
+	content: "\f1d1";
+}
+.thunews-git-square:before {
+	content: "\f1d2";
+}
+.thunews-git:before {
+	content: "\f1d3";
+}
+.thunews-hacker-news:before {
+	content: "\f1d4";
+}
+.thunews-tencent-weibo:before {
+	content: "\f1d5";
+}
+.thunews-qq:before {
+	content: "\f1d6";
+}
+.thunews-wechat:before {
+	content: "\f1d7";
+}
+.thunews-weixin:before {
+	content: "\f1d7";
+}
+.thunews-paper-plane:before {
+	content: "\f1d8";
+}
+.thunews-send:before {
+	content: "\f1d8";
+}
+.thunews-paper-plane-o:before {
+	content: "\f1d9";
+}
+.thunews-send-o:before {
+	content: "\f1d9";
+}
+.thunews-history:before {
+	content: "\f1da";
+}
+.thunews-circle-thin:before {
+	content: "\f1db";
+}
+.thunews-genderless:before {
+	content: "\f1db";
+}
+.thunews-header:before {
+	content: "\f1dc";
+}
+.thunews-paragraph:before {
+	content: "\f1dd";
+}
+.thunews-sliders:before {
+	content: "\f1de";
+}
+.thunews-share-alt:before {
+	content: "\f1e0";
+}
+.thunews-share-alt-square:before {
+	content: "\f1e1";
+}
+.thunews-bomb:before {
+	content: "\f1e2";
+}
+.thunews-futbol-o:before {
+	content: "\f1e3";
+}
+.thunews-soccer-ball-o:before {
+	content: "\f1e3";
+}
+.thunews-tty:before {
+	content: "\f1e4";
+}
+.thunews-binoculars:before {
+	content: "\f1e5";
+}
+.thunews-plug:before {
+	content: "\f1e6";
+}
+.thunews-slideshare:before {
+	content: "\f1e7";
+}
+.thunews-twitch:before {
+	content: "\f1e8";
+}
+.thunews-yelp:before {
+	content: "\f1e9";
+}
+.thunews-newspaper-o:before {
+	content: "\f1ea";
+}
+.thunews-wifi:before {
+	content: "\f1eb";
+}
+.thunews-calculator:before {
+	content: "\f1ec";
+}
+.thunews-paypal:before {
+	content: "\f1ed";
+}
+.thunews-google-wallet:before {
+	content: "\f1ee";
+}
+.thunews-cc-visa:before {
+	content: "\f1f0";
+}
+.thunews-cc-mastercard:before {
+	content: "\f1f1";
+}
+.thunews-cc-discover:before {
+	content: "\f1f2";
+}
+.thunews-cc-amex:before {
+	content: "\f1f3";
+}
+.thunews-cc-paypal:before {
+	content: "\f1f4";
+}
+.thunews-cc-stripe:before {
+	content: "\f1f5";
+}
+.thunews-bell-slash:before {
+	content: "\f1f6";
+}
+.thunews-bell-slash-o:before {
+	content: "\f1f7";
+}
+.thunews-trash:before {
+	content: "\f1f8";
+}
+.thunews-copyright:before {
+	content: "\f1f9";
+}
+.thunews-at:before {
+	content: "\f1fa";
+}
+.thunews-eyedropper:before {
+	content: "\f1fb";
+}
+.thunews-paint-brush:before {
+	content: "\f1fc";
+}
+.thunews-birthday-cake:before {
+	content: "\f1fd";
+}
+.thunews-area-chart:before {
+	content: "\f1fe";
+}
+.thunews-pie-chart:before {
+	content: "\f200";
+}
+.thunews-line-chart:before {
+	content: "\f201";
+}
+.thunews-lastfm:before {
+	content: "\f202";
+}
+.thunews-lastfm-square:before {
+	content: "\f203";
+}
+.thunews-toggle-off:before {
+	content: "\f204";
+}
+.thunews-toggle-on:before {
+	content: "\f205";
+}
+.thunews-bicycle:before {
+	content: "\f206";
+}
+.thunews-bus:before {
+	content: "\f207";
+}
+.thunews-ioxhost:before {
+	content: "\f208";
+}
+.thunews-angellist:before {
+	content: "\f209";
+}
+.thunews-cc:before {
+	content: "\f20a";
+}
+.thunews-ils:before {
+	content: "\f20b";
+}
+.thunews-shekel:before {
+	content: "\f20b";
+}
+.thunews-sheqel:before {
+	content: "\f20b";
+}
+.thunews-meanpath:before {
+	content: "\f20c";
+}
+.thunews-buysellads:before {
+	content: "\f20d";
+}
+.thunews-connectdevelop:before {
+	content: "\f20e";
+}
+.thunews-dashcube:before {
+	content: "\f210";
+}
+.thunews-forumbee:before {
+	content: "\f211";
+}
+.thunews-leanpub:before {
+	content: "\f212";
+}
+.thunews-sellsy:before {
+	content: "\f213";
+}
+.thunews-shirtsinbulk:before {
+	content: "\f214";
+}
+.thunews-simplybuilt:before {
+	content: "\f215";
+}
+.thunews-skyatlas:before {
+	content: "\f216";
+}
+.thunews-cart-plus:before {
+	content: "\f217";
+}
+.thunews-cart-arrow-down:before {
+	content: "\f218";
+}
+.thunews-diamond:before {
+	content: "\f219";
+}
+.thunews-ship:before {
+	content: "\f21a";
+}
+.thunews-user-secret:before {
+	content: "\f21b";
+}
+.thunews-motorcycle:before {
+	content: "\f21c";
+}
+.thunews-street-view:before {
+	content: "\f21d";
+}
+.thunews-heartbeat:before {
+	content: "\f21e";
+}
+.thunews-venus:before {
+	content: "\f221";
+}
+.thunews-mars:before {
+	content: "\f222";
+}
+.thunews-mercury:before {
+	content: "\f223";
+}
+.thunews-transgender:before {
+	content: "\f224";
+}
+.thunews-transgender-alt:before {
+	content: "\f225";
+}
+.thunews-venus-double:before {
+	content: "\f226";
+}
+.thunews-mars-double:before {
+	content: "\f227";
+}
+.thunews-venus-mars:before {
+	content: "\f228";
+}
+.thunews-mars-stroke:before {
+	content: "\f229";
+}
+.thunews-mars-stroke-v:before {
+	content: "\f22a";
+}
+.thunews-mars-stroke-h:before {
+	content: "\f22b";
+}
+.thunews-neuter:before {
+	content: "\f22c";
+}
+.thunews-facebook-official:before {
+	content: "\f230";
+}
+.thunews-pinterest-p:before {
+	content: "\f231";
+}
+.thunews-whatsapp:before {
+	content: "\f232";
+}
+.thunews-server:before {
+	content: "\f233";
+}
+.thunews-user-plus:before {
+	content: "\f234";
+}
+.thunews-user-times:before {
+	content: "\f235";
+}
+.thunews-bed:before {
+	content: "\f236";
+}
+.thunews-hotel:before {
+	content: "\f236";
+}
+.thunews-viacoin:before {
+	content: "\f237";
+}
+.thunews-train:before {
+	content: "\f238";
+}
+.thunews-subway:before {
+	content: "\f239";
+}
+.thunews-medium:before {
+	content: "\f23a";
+}
