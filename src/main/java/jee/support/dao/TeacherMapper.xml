@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="jee.support.dao.TeacherMapper" >
+    <resultMap id="BaseResultMap" type="jee.support.model.Teacher" >
+        <id column="t_id" property="tId" jdbcType="INTEGER" />
+        <result column="tname" property="tname" jdbcType="VARCHAR" />
+        <result column="tpwd" property="tpwd" jdbcType="VARCHAR" />
+        <result column="tsex" property="tsex" jdbcType="CHAR" />
+        <result column="tbirthday" property="tbirthday" jdbcType="TIMESTAMP" />
+        <result column="learningExperience" property="learningexperience" jdbcType="LONGVARCHAR" />
+        <result column="jobtitle" property="jobtitle" jdbcType="VARCHAR" />
+        <result column="email" property="email" jdbcType="VARCHAR" />
+        <result column="researchDirection" property="researchdirection" jdbcType="LONGVARCHAR" />
+        <result column="resume" property="resume" jdbcType="LONGVARCHAR" />
+        <result column="repersentativePapers" property="repersentativepapers" jdbcType="LONGVARCHAR" />
+        <result column="subjectName" property="subjectname" jdbcType="LONGVARCHAR" />
+        <result column="patent" property="patent" jdbcType="LONGVARCHAR" />
+        <result column="awarded" property="awarded" jdbcType="LONGVARCHAR" />
+        <result column="researchingProject" property="researchingproject" jdbcType="LONGVARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        t_id,
+        tname,
+        tpwd,
+        tsex,
+        tbirthday,
+        learningExperience,
+        jobtitle,
+        email,
+        researchDirection,
+        resume,
+        repersentativePapers,
+        subjectName,
+        patent,
+        awarded,
+        researchingProject
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from teacher
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </select>
+
+    <delete id="deleteByPrimaryKey" >
+        delete from teacher
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </delete>
+
+    <delete id="deleteByPrimaryKeys" >
+        delete from teacher
+        where <foreach collection="primaryKeys" item = "primaryKey" separator=" or " >t_id = #{primaryKey,jdbcType=INTEGER}</foreach>
+    </delete>
+
+    <insert id="insert" parameterType="jee.support.model.Teacher" >
+        insert into teacher (
+            t_id,
+            tname,
+            tpwd,
+            tsex,
+            tbirthday,
+            learningExperience,
+            jobtitle,
+            email,
+            researchDirection,
+            resume,
+            repersentativePapers,
+            subjectName,
+            patent,
+            awarded,
+            researchingProject
+        )
+        values (
+            #{tId,jdbcType=INTEGER},
+            #{tname,jdbcType=VARCHAR},
+            #{tpwd,jdbcType=VARCHAR},
+            #{tsex,jdbcType=CHAR},
+            #{tbirthday,jdbcType=TIMESTAMP},
+            #{learningexperience,jdbcType=LONGVARCHAR},
+            #{jobtitle,jdbcType=VARCHAR},
+            #{email,jdbcType=VARCHAR},
+            #{researchdirection,jdbcType=LONGVARCHAR},
+            #{resume,jdbcType=LONGVARCHAR},
+            #{repersentativepapers,jdbcType=LONGVARCHAR},
+            #{subjectname,jdbcType=LONGVARCHAR},
+            #{patent,jdbcType=LONGVARCHAR},
+            #{awarded,jdbcType=LONGVARCHAR},
+            #{researchingproject,jdbcType=LONGVARCHAR}
+        )
+    </insert>
+
+    <insert id="insertSelective" parameterType="jee.support.model.Teacher" >
+        insert into teacher
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="tId != null" >
+                t_id,
+            </if>
+            <if test="tname != null" >
+                tname,
+            </if>
+            <if test="tpwd != null" >
+                tpwd,
+            </if>
+            <if test="tsex != null" >
+                tsex,
+            </if>
+            <if test="tbirthday != null" >
+                tbirthday,
+            </if>
+            <if test="learningexperience != null" >
+                learningExperience,
+            </if>
+            <if test="jobtitle != null" >
+                jobtitle,
+            </if>
+            <if test="email != null" >
+                email,
+            </if>
+            <if test="researchdirection != null" >
+                researchDirection,
+            </if>
+            <if test="resume != null" >
+                resume,
+            </if>
+            <if test="repersentativepapers != null" >
+                repersentativePapers,
+            </if>
+            <if test="subjectname != null" >
+                subjectName,
+            </if>
+            <if test="patent != null" >
+                patent,
+            </if>
+            <if test="awarded != null" >
+                awarded,
+            </if>
+            <if test="researchingproject != null" >
+                researchingProject,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="tId != null" >
+                #{tId,jdbcType=INTEGER},
+            </if>
+            <if test="tname != null" >
+                #{tname,jdbcType=VARCHAR},
+            </if>
+            <if test="tpwd != null" >
+                #{tpwd,jdbcType=VARCHAR},
+            </if>
+            <if test="tsex != null" >
+                #{tsex,jdbcType=CHAR},
+            </if>
+            <if test="tbirthday != null" >
+                #{tbirthday,jdbcType=TIMESTAMP},
+            </if>
+            <if test="learningexperience != null" >
+                #{learningexperience,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="jobtitle != null" >
+                #{jobtitle,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null" >
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="researchdirection != null" >
+                #{researchdirection,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="resume != null" >
+                #{resume,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="repersentativepapers != null" >
+                #{repersentativepapers,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="subjectname != null" >
+                #{subjectname,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="patent != null" >
+                #{patent,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="awarded != null" >
+                #{awarded,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="researchingproject != null" >
+                #{researchingproject,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="jee.support.model.Teacher" >
+        update teacher
+        <set >
+            <if test="tId != null" >
+                t_id = #{tId,jdbcType=INTEGER},
+            </if>
+            <if test="tname != null" >
+                tname = #{tname,jdbcType=VARCHAR},
+            </if>
+            <if test="tpwd != null" >
+                tpwd = #{tpwd,jdbcType=VARCHAR},
+            </if>
+            <if test="tsex != null" >
+                tsex = #{tsex,jdbcType=CHAR},
+            </if>
+            <if test="tbirthday != null" >
+                tbirthday = #{tbirthday,jdbcType=TIMESTAMP},
+            </if>
+            <if test="learningexperience != null" >
+                learningExperience = #{learningexperience,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="jobtitle != null" >
+                jobtitle = #{jobtitle,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null" >
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="researchdirection != null" >
+                researchDirection = #{researchdirection,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="resume != null" >
+                resume = #{resume,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="repersentativepapers != null" >
+                repersentativePapers = #{repersentativepapers,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="subjectname != null" >
+                subjectName = #{subjectname,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="patent != null" >
+                patent = #{patent,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="awarded != null" >
+                awarded = #{awarded,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="researchingproject != null" >
+                researchingProject = #{researchingproject,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="jee.support.model.Teacher" >
+        update teacher
+        set
+        <trim suffixOverrides="," >
+            tname = #{tname,jdbcType=VARCHAR},
+            tpwd = #{tpwd,jdbcType=VARCHAR},
+            tsex = #{tsex,jdbcType=CHAR},
+            tbirthday = #{tbirthday,jdbcType=TIMESTAMP},
+            learningExperience = #{learningexperience,jdbcType=LONGVARCHAR},
+            jobtitle = #{jobtitle,jdbcType=VARCHAR},
+            email = #{email,jdbcType=VARCHAR},
+            researchDirection = #{researchdirection,jdbcType=LONGVARCHAR},
+            resume = #{resume,jdbcType=LONGVARCHAR},
+            repersentativePapers = #{repersentativepapers,jdbcType=LONGVARCHAR},
+            subjectName = #{subjectname,jdbcType=LONGVARCHAR},
+            patent = #{patent,jdbcType=LONGVARCHAR},
+            awarded = #{awarded,jdbcType=LONGVARCHAR},
+            researchingProject = #{researchingproject,jdbcType=LONGVARCHAR},
+        </trim>
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </update>
+
+    <select id="loadModels" resultMap="BaseResultMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from teacher
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="loadMaps" resultType="java.util.HashMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from teacher
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="count" resultType="long">
+        select count(
+        <if test="isDistinct == true">
+            distinct
+        </if>
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        ) from teacher
+        <if test="condition != null">
+            where ${condition}
+        </if>
+    </select>
+
+    <select id="findModel" resultMap="BaseResultMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from teacher
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </select>
+
+    <select id="findMap" resultType="java.util.HashMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from teacher
+        where
+        t_id = #{tId,jdbcType=INTEGER}
+
+    </select>
+
+    <select id="findTeacher" parameterType="Map" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List" />
+        from teacher
+        <where>
+            <if test="tname!=null and tname!='' ">
+                and tname like #{tname}
+            </if>
+        </where>
+        <if test="start!=null and size!=null">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <select id="getTotalTeacher" parameterType="Map" resultType="Long">
+        select count(*) from teacher
+        <where>
+            <if test="tname!=null and tname!='' ">
+                and tname like #{tname}
+            </if>
+        </where>
+    </select>
+
+    <select id="login" parameterType="jee.support.model.Teacher" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List" />
+        from
+        teacher where tname=#{tname} and tpwd=#{tpwd} limit 1
+    </select>
+</mapper>

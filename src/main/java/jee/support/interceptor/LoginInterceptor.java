@@ -28,6 +28,18 @@ public class LoginInterceptor implements HandlerInterceptor {
                 request.getRequestDispatcher("/WEB-INF/jsp/view/login2.jsp").forward(request,response);
                 return false;
             }
+            if(url.indexOf("/resource/xiujue_motion")>=0) {
+
+                request.setAttribute("msg","下载嗅觉数据需要登录，点击后台管理系统(普通用户登录)");
+                request.getRequestDispatcher("/WEB-INF/jsp/view/login2.jsp").forward(request,response);
+                return false;
+            }
+            if(url.indexOf("/resource/video_motion")>=0) {
+
+                request.setAttribute("msg","下载视频情感数据需要登录，点击后台管理系统(普通用户登录)");
+                request.getRequestDispatcher("/WEB-INF/jsp/view/login2.jsp").forward(request,response);
+                return false;
+            }
 
             if(url.indexOf("tResource/getStuEnglish")>=0)
             {

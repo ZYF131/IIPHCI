@@ -18,6 +18,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -34,8 +36,11 @@ public class FileUploadController {
             {
                  originalFilename=file.getOriginalFilename();
 
+                SimpleDateFormat df = new SimpleDateFormat("yyyyMMdd");//设置日期格式
+                //System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
                 //设置上传文件的保存地址目录
-                String dirPath=request.getServletContext().getRealPath("/upload/");
+                String dirPath=request.getServletContext().getRealPath("/editor/attached/file/"+df.format(new Date())+"/");
+
 
                 File filePath=new File(dirPath);
                 if(!filePath.exists())

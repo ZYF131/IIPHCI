@@ -8,6 +8,6 @@
     response.setHeader("Content-Type", "text/html");
 
     String rootPath = application.getRealPath("/");
-    out.write(new ActionEnter(request, rootPath).exec());
+    out.write(new ActionEnter(request, rootPath,"").exec());
 
 %>

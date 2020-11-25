@@ -27,8 +27,10 @@
 
 
     <!-- 配置静态资源不用经过springmv的解析 -->
-    <!-- **表示该文件夹及其子文件夹所有文件-->
+    <!-- **表示该文件夹及其子文件夹所有文件--><!--静态资源一定要免除解析，否则加载不出来-->
     <mvc:resources location="/resource/" mapping="/resource/**"/>
+    <mvc:resources location="/ueditor/" mapping="/ueditor/**"/>
+    <mvc:resources location="/image/" mapping="/image/**"/>
     <mvc:resources location="/WEB-INF/jsp/view/" mapping="*.html"/>
     <mvc:resources location="/views/" mapping="*.jsp"/>
     <mvc:resources location="/editor/" mapping="/editor/**"/>

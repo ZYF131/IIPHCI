@@ -89,14 +89,14 @@
             <div class="section_0_1">
                 <h2>嗅觉情感数据集下载</h2>
                 <ul id="ul_tnews">
-                    <li><a href="">Original EEG Data-V</a>
+                    <li><a href="${cx}/resource/xiujue_motion.zip" >嗅觉情感数据集</a>
                     </li>
-                    <li><a href="">Original EEG Data-VS</a>
-                    </li>
-                    <li><a href="">Processed EEG Data-V</a>
-                    </li>
-                    <li><a href="">Processed EEG Data-VS</a>
-                    </li>
+<%--                    <li><a href="">Original EEG Data-VS</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a href="">Processed EEG Data-V</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a href="">Processed EEG Data-VS</a>--%>
+<%--                    </li>--%>
                 </ul>
             </div>
         </div>

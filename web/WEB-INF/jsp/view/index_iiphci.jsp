@@ -115,7 +115,7 @@
                 <a href="" class="more_0">更多</a>
             </div>
             <div class="section_0_r">
-                <h2>重要信息</h2>
+                <h2>通知公告</h2>
                 <ul id="ul_tnews">
                 </ul>
                 <a href="" class="more_0">更多</a>
@@ -123,64 +123,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-<%--    <div class="section section_1">--%>
-<%--        <div class="se1top"></div>--%>
-<%--        <div class="mainWrap">--%>
-<%--            <h2>新闻动态 <a href="News-report" target="_blank">更多</a><b></b></h2>--%>
-<%--            <div class="imglist">--%>
-<%--                <ul class="lastnewsslider clearfix">--%>
-<%--                    <li><a href="/info/News-report/698" target="_blank" title="我和最懂学习的清华心理学教授聊了聊：2020年，还要不要鸡娃？"><img src="${cx}/resource/upload_files/image/1594970653099_0B.jpg" alt="我和最懂学习的清华心理学教授聊了聊：2020年，还要不要鸡娃？">--%>
-<%--                        <b><i class="thunews-clock-o"></i>2020.07.15</b>--%>
-<%--                        <h3 title="我和最懂学习的清华心理学教授聊了聊：2020年，还要不要鸡娃？">我和最懂学习的清华心理学教授聊了聊：2020年，还要不要鸡娃？</h3><p>你相信孩子的兴趣决定他未来能走多远吗？--%>
 
-<%--                            你相信玩耍会使孩子们变得更聪明吗？--%>
-
-<%--                            你相信毕业于哈佛大学，... </p></a></li>--%>
-<%--                    <li><a href="/info/News-report/693" target="_blank" title="What can liner shipping learn from brain network science? "><img src="${cx}/resource/upload_files/image/1592380725309_09.png" alt="What can liner shipping learn from brain network science? ">--%>
-<%--                        <b><i class="thunews-clock-o"></i>2020.06.10</b>--%>
-<%--                        <h3 title="What can liner shipping learn from brain network science? ">What can liner shipping learn from brain network science? </h3><p>THBI scientist unveils how the organization of global m... </p></a></li>--%>
-<%--                    <li><a href="/info/News-report/687" target="_blank" title="Neurotransistors Emulate the Learning ‘Rhythm’ of Neurons"><img src="${cx}/resource/upload_files/image/1590722958186_06.jpg" alt="Neurotransistors Emulate the Learning ‘Rhythm’ of Neurons">--%>
-<%--                        <b><i class="thunews-clock-o"></i>2020.05.29</b>--%>
-<%--                        <h3 title="Neurotransistors Emulate the Learning ‘Rhythm’ of Neurons">Neurotransistors Emulate the Learning ‘Rhythm’ of Neurons</h3><p>Prof. Carlo Vittorio Cannistraci together with Dr. Eunh... </p></a></li>--%>
-<%--                    <li><a href="/info/News-report/660" target="_blank" title="“我和我的祖国……”—清华研究团队揭示音乐回忆的大脑动态过程"><img src="${cx}/resource/upload_files/image/1570862169559_11.jpg" alt="“我和我的祖国……”—清华研究团队揭示音乐回忆的大脑动态过程">--%>
-<%--                        <b><i class="thunews-clock-o"></i>2019.10.12</b>--%>
-<%--                        <h3 title="“我和我的祖国……”—清华研究团队揭示音乐回忆的大脑动态过程">“我和我的祖国……”—清华研究团队揭示音乐回忆的大脑动态过程</h3><p>刚刚经历了国庆70周年的热烈氛围，你的脑海中是不是还飘荡着“我和我的祖国”的旋律？脑子里满是一首歌的旋律，口中... </p></a></li>--%>
-<%--                </ul>--%>
-
-<%--            </div>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-<%--    <script type="text/javascript">--%>
-<%--        $(function(){--%>
-<%--            $('.lastnewsslider').slick({--%>
-<%--                infinite: true,--%>
-<%--                slidesToShow: 3,--%>
-<%--                slidesToScroll: 3,--%>
-<%--                autoplay: true,--%>
-<%--                centerMode: false,--%>
-<%--                dots:false,--%>
-<%--                prevArrow:"<div class=\"sliderbutton prev\"><i class=\"thunews-angle-left\"></i></div>",--%>
-<%--                nextArrow:"<div class=\"sliderbutton next\"><i class=\"thunews-angle-right\"></i></div>",--%>
-<%--                responsive: [--%>
-<%--                    {--%>
-<%--                        breakpoint: 700,--%>
-<%--                        settings: {--%>
-<%--                            slidesToShow: 1,--%>
-<%--                            slidesToScroll: 1,--%>
-<%--                            adaptiveHeight:true,--%>
-<%--                            dots: true--%>
-<%--                        }--%>
-<%--                    },--%>
-<%--                    {--%>
-<%--                        breakpoint: 1200,--%>
-<%--                        settings: {--%>
-<%--                            dots: true--%>
-<%--                        }--%>
-<%--                    }]--%>
-
-<%--            });--%>
-<%--        });--%>
-<%--    </script>--%>
     <script type="text/javascript">
         $(function(){
             $('.lecturelist').slick({

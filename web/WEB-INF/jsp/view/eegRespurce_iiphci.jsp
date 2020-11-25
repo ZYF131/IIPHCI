@@ -58,8 +58,8 @@
     <div class="mainWrap list-lr" >
         <div class="list-l">
             <nav>
-                <a href="index">首页</a>&nbsp;&nbsp; -
-                <a href="team">公开数据集</a>&nbsp;&nbsp; - <a href="staff">运动想像EEG</a>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >公开数据集</a>&nbsp;&nbsp; - <a >运动想像EEG</a>
             </nav>
             <h2>运动想像EEG数据(国家自然科学基金资助61271352)<b></b></h2>
             <div class="twindex">

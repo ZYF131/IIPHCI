@@ -55,8 +55,8 @@
     <div class="mainWrap list-lr" style=" position: relative;">
         <div class="list-l">
             <nav>
-                <a href="index">首页</a>&nbsp;&nbsp; -
-                <a href="team">实验室团队</a>&nbsp;&nbsp; - 		<a href="staff">实验室人员</a>				</nav>			<h2>实验室老师<b></b></h2>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >实验室团队</a>&nbsp;&nbsp; - 		<a >实验室人员</a>				</nav>			<h2>实验室老师<b></b></h2>
             <div class="imglist">
                 <ul class="lecturelist clearfix">
                     <li class="yjry_list">
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li class="yjry_list">
-                        <a href="http://cs.ahu.edu.cn/2018/0322/c11201a163196/page.htm" target="_blank" >
+                        <a href="${cx}/api/teacher/listHoutai2/2" target="_blank" >
                             <img src="${cx}/resource/upload_files/image/tt3.png" alt="">
                             <h3 title="">吕钊 教授</h3>
                             <span>智能信息处理与人-机交互技术</span>

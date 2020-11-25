@@ -35,10 +35,11 @@
                     var strUrl=jsonsub[i].url;
                     if(strUrl.indexOf("<a")!=-1)
                     {
-                        html+="<li>"+jsonsub[i].url.replace(/@/g, "").replace(/\r\n/g, "").replace(/<br \/>/g, "").replace(/admin/g, "${cx}").replace(/<p>/g, "").replace(/<\/p>/g, "")+"&nbsp;&nbsp;&nbsp;&nbsp;"+jsonsub[i].title.replace(/^\s+|\s+$/g,"")+"</li>";
+                        html+="<li>"+jsonsub[i].url.replace(/@/g, "").replace(/\r\n/g, "").replace(/<br \/>/g, "").replace(/admin/g, "iiphci/").replace(/<p>/g, "").replace(/<\/p>/g, "")+"&nbsp;&nbsp;&nbsp;&nbsp;"+jsonsub[i].title.replace(/^\s+|\s+$/g,"")+"</li>";
                     }else
                     {
-                      var  strNewUrl="<a  href=\'${cx}/download?filename="+strUrl+"'\>"+strUrl+"</a>";
+                        var str=strUrl.split("/");
+                        var  strNewUrl="<a  href=\'/iiphci/editor/attached/file/"+strUrl+"'\>"+str[1]+"</a>";
                         html+="<li>"+strNewUrl+"&nbsp;&nbsp;&nbsp;&nbsp;"+jsonsub[i].title.replace(/^\s+|\s+$/g,"")+"</li>";
                     }
 

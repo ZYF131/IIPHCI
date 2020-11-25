@@ -10,7 +10,6 @@ public interface ITbUserService {
 
      List<TbUser> findTbUser(Map<String, Object> map);
      Long getTotalTbUser(Map<String, Object> map);
-
      TbUser login(TbUser user);
     boolean save(TbUser tbUser);
 

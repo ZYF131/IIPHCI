@@ -56,8 +56,8 @@
     <div class="mainWrap list-lr" >
         <div class="list-l">
             <nav>
-                <a href="index">Home Page</a>&nbsp;&nbsp; -
-                <a href="team">Data Resources</a>&nbsp;&nbsp; - <a href="staff">Motor Imagery EEG Data</a>
+                <a >Home Page</a>&nbsp;&nbsp; -
+                <a >Data Resources</a>&nbsp;&nbsp; - <a >Motor Imagery EEG Data</a>
             </nav>
             <h2>Motor Imagery Electroencephalogram (MIEEG) Data<b></b></h2>
             <div style="font-size:10px;text-align:center">(This work was funded by the National Natural Science Foundation of China under the grant 61271352)</div>

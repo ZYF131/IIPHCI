@@ -41,8 +41,8 @@
     <div class="mainWrap list-lr">
         <div class="list-l">
             <nav>
-                <a href="index">Home Page</a>&nbsp;&nbsp; -
-                <a href="Contact">Contact Us</a>				</nav>			<h2>contact us<b></b></h2>
+                <a >Home Page</a>&nbsp;&nbsp; -
+                <a >Contact Us</a>				</nav>			<h2>contact us<b></b></h2>
             <div class="twindex">
                 <p><img src="${cx}/resource/res/sites/images/wz.png" style="margin-right:10px;"/>Address：Qingyuan campus of Anhui University, 111 Jiulong Road, Shushan District, Hefei City, Anhui Province, China</p><p><img src="${cx}/resource/res/sites/images/tel.png" style="margin-right:10px;"/>Tel：+8613856983705</p><p><img src="${cx}/resource/res/sites/images/yj.png" style="margin-right: 10px; width: 30px; height: 20px;" width="30" height="20"/>Email：<a href="mailto:thbi-ad@tsinghua.edu.cn">emsp_ahu@163.com</a></p><p><img src="${cx}/resource/upload_files/image/20190505/1557046924185012661.png" title="1557046924185012661.png" alt=""/></p>
             </div>

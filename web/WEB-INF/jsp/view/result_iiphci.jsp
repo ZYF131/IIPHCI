@@ -48,8 +48,8 @@
     <div class="mainWrap list-lr">
         <div class="list-l">
             <nav>
-                <a href="">首页</a>&nbsp;&nbsp; -
-                <a href="">科学研究</a>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >科学研究</a>
             </nav>
             <div id="news_id">
                 <h2>研究成果</h2>

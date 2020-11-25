@@ -44,8 +44,8 @@
     <div class="mainWrap list-lr">
         <div class="list-l">
             <nav>
-                <a href="">首页</a>&nbsp;&nbsp; -
-                <a href="">重要信息</a>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >重要信息</a>
             </nav>
             <div id="news_id">
             <h2>${TNews_title} <span><i class="thunews-clock-o"></i>${TNews_datetime}</span></h2>

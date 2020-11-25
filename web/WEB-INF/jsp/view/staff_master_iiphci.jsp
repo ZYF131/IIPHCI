@@ -68,8 +68,8 @@
     <div class="mainWrap list-lr" style=" position: relative;">
         <div class="list-l">
             <nav>
-                <a href="index">首页</a>&nbsp;&nbsp; -
-                <a href="team">实验室团队</a>&nbsp;&nbsp; - 		<a href="staff">实验室人员</a>				</nav>			<h2>实验室在读硕士<b></b></h2>
+                <a>首页</a>&nbsp;&nbsp; -
+                <a>实验室团队</a>&nbsp;&nbsp; - 		<a>实验室人员</a>				</nav>			<h2>实验室在读硕士<b></b></h2>
             <div class="imglist">
                 <ul class="lecturelist clearfix">
                     <li class="yjry_list">

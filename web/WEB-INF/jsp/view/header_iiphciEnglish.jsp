@@ -13,12 +13,12 @@
                         <!-- <li class="thuhome mr"><a href="/english" target="_blank">English</a></li>-->
                     </ul>
                 </div>
-                <a href="" class="logo"><img src="${cx}/resource/res/sites/images/logo.png" alt="logo"></a>
+                <a  class="logo"><img src="${cx}/resource/res/sites/images/logo.png" alt="logo"></a>
                 <div class="search">
 
                     <form  name="form1" id="search-form-header" action="syss" target="_blank" method="post">
                         <input name="key" type="text" value=""  onFocus="this.value=''" onBlur="if(this.value==''){this.value='';}" value="SEARCH">
-                        <a href="javascript:;"><i class="thunews-search" id="searchbtn" onclick="" value=""></i></a>
+                        <a><i class="thunews-search" id="searchbtn" onclick="" value=""></i></a>
                     </form>
                 </div>
             </div>

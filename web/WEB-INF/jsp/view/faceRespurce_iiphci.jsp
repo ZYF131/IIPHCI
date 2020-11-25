@@ -58,8 +58,8 @@
     <div class="mainWrap list-lr" >
         <div class="list-l">
             <nav>
-                <a href="index">首页</a>&nbsp;&nbsp; -
-                <a href="team">公开数据集</a>&nbsp;&nbsp; - <a href="staff">面部情感数据</a>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >公开数据集</a>&nbsp;&nbsp; - <a >面部情感数据</a>
             </nav>
             <h2>面部情感数据集<b></b></h2>
             <div class="twindex">
@@ -93,14 +93,14 @@
             <div class="section_0_1">
                 <h2>面部情感数据集下载</h2>
                 <ul id="ul_tnews">
-                    <li><a href="">正常室光条件</a>
+                    <li><a href="${cx}/resource/video_motion.zip">面部情感数据集</a>
                     </li>
-                    <li><a href="">正面人脸不同光照条件</a>
-                    </li>
-                    <li><a href="">人脸角度偏转条件</a>
-                    </li>
-                    <li><a href="">干湿人脸条件</a>
-                    </li>
+<%--                    <li><a href="">正面人脸不同光照条件</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a href="">人脸角度偏转条件</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a href="">干湿人脸条件</a>--%>
+<%--                    </li>--%>
                 </ul>
             </div>
         </div>

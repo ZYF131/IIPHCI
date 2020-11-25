@@ -57,8 +57,8 @@
     <div class="mainWrap list-lr" >
         <div class="list-l">
             <nav>
-                <a href="index">Home Page</a>&nbsp;&nbsp; -
-                <a href="team">Data Resources</a>&nbsp;&nbsp; - <a href="staff">Facial Expressions Video Data</a>
+                <a >Home Page</a>&nbsp;&nbsp; -
+                <a >Data Resources</a>&nbsp;&nbsp; - <a>Facial Expressions Video Data</a>
             </nav>
             <h2>Facial Expressions Video Data set<b></b></h2>
             <div class="twindex">
@@ -98,14 +98,14 @@
             <div class="section_0_1">
                 <h2>Download</h2>
                 <ul id="ul_tnews">
-                    <li><a href="">Normal room light condition</a>
+                    <li><a href="${cx}/resource/video_motion.zip" >Download</a>
                     </li>
-                    <li><a href="">Different lighting conditions on the front face</a>
-                    </li>
-                    <li><a href="">Face angle deflection condition</a>
-                    </li>
-                    <li><a href="">Wet and dry face conditions</a>
-                    </li>
+<%--                    <li><a >Different lighting conditions on the front face</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a >Face angle deflection condition</a>--%>
+<%--                    </li>--%>
+<%--                    <li><a >Wet and dry face conditions</a>--%>
+<%--                    </li>--%>
                 </ul>
             </div>
         </div>

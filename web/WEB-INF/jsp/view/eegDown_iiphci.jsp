@@ -120,8 +120,8 @@
     <div class="mainWrap list-lr" >
         <div class="list-l">
             <nav>
-                <a href="index">首页</a>&nbsp;&nbsp; -
-                <a href="team">公开数据集</a>&nbsp;&nbsp; - <a href="staff">运动想像EEG</a>
+                <a >首页</a>&nbsp;&nbsp; -
+                <a >公开数据集</a>&nbsp;&nbsp; - <a >运动想像EEG</a>
             </nav>
             <h2>运动想像EEG数据下载<b></b></h2>
 
@@ -172,62 +172,6 @@
 
 
 </div>
-
-<%--<div class="content" role="toolbar">--%>
-<%--    <div class="section section_0">--%>
-<%--        <div class="mainWrap">--%>
-<%--            <div class="section_0_1">--%>
-<%--                <ul id="ul_tnews">--%>
-<%--                    <li><a href="/index/api/tNews/toNewsInfo/7">受试者OYR★</a>--%>
-<%--                        <b style="float: right; font-weight: normal;"><i class="thunews-clock-o"></i></b>--%>
-<%--                    </li>--%>
-<%--                    <li><a href="/index/api/tNews/toNewsInfo/7">受试者LJL★</a>--%>
-<%--                        <b style="float: right; font-weight: normal;"><i class="thunews-clock-o"></i></b>--%>
-<%--                    </li>--%>
-<%--                    <li><a href="/index/api/tNews/toNewsInfo/7">受试者RJ★</a>--%>
-<%--                        <b style="float: right; font-weight: normal;"><i class="thunews-clock-o"></i></b>--%>
-<%--                    </li>--%>
-<%--                    <li><a href="/index/api/tNews/toNewsInfo/7">受试者CB★</a>--%>
-<%--                        <b style="float: right; font-weight: normal;"><i class="thunews-clock-o"></i></b>--%>
-<%--                    </li>--%>
-<%--                </ul>--%>
-<%--                <nav>--%>
-<%--                    <ul class="pagination">--%>
-<%--                        <li class="disabled">--%>
-<%--                            <a href="#">首页 </a>--%>
-<%--                        </li>--%>
-<%--                        <li class="disabled">--%>
-<%--                            <a href="#">上一页 </a>--%>
-<%--                        </li>--%>
-<%--                        <li class="active">--%>
-<%--                            <a href="#">1<span class="sr-only"></span></a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=2&amp;size=10">2</a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=3&amp;size=10">3</a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=4&amp;size=10">4</a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=5&amp;size=10">5</a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=2&amp;size=10">下一页</a>--%>
-<%--                        </li>--%>
-<%--                        <li>--%>
-<%--                            <a href="/student/student/list?page=5">尾页</a>--%>
-<%--                        </li>--%>
-<%--                    </ul>--%>
-<%--                </nav>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-
-<%--</div>--%>
-
 
 
 

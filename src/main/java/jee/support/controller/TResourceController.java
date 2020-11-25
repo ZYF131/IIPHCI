@@ -315,11 +315,15 @@ public class TResourceController {
             boolean isMatch = Pattern.matches(pattern, url);
             if(!isMatch)
             {
+
               // '<a class=\"ke-insertfile\" href=\"/admin/editor/attached/file/20181127/20181127193233_36125.rar\" target=\"_blank\">OYR_20141026_cap1_no1</a>'
-                job.put("url", "<a  href=\"${cx}/download?filename="+url+"\">"+url+"</a>");
+                job.put("url", "<a  class=\"ke-insertfile\" href=\"http://iiphci.ahu.edu.cn:8081/iiphci/editor/attached/file/"+url+"\">"+url+"</a>");
+
+
+
             }else
             {
-               String urlNew=url.replaceAll("admin","index");
+               String urlNew=url.replaceAll("admin","iiphci");
                 job.put("url", urlNew);
             }
         }

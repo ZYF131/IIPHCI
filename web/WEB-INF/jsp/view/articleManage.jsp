@@ -15,14 +15,11 @@
             src="${pageContext.request.contextPath}/resource/jquery-easyui-1.3.3/jquery.easyui.min.js"></script>
     <script type="text/javascript"
             src="${pageContext.request.contextPath}/resource/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/resource/ueditor/ueditor.config.js">
-
-    </script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/resource/ueditor/ueditor.all.min.js">
-
-    </script>
+    <script type="text/javascript" charset="utf-8" src="${cx}/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="${cx}/ueditor/ueditor.all.min.js"> </script>
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="${cx}/ueditor/lang/zh-cn/zh-cn.js"></script>
     <script type="text/javascript"
             src="${pageContext.request.contextPath}/resource/js/common.js"></script>
 
@@ -98,6 +95,7 @@
 
 <script type="text/javascript">
     var url;
+
     function ResetEditor() {
         UE.getEditor('myEditor', {
             initialFrameHeight: 480,
@@ -162,11 +160,44 @@
     }
 
     function openArticleAddDialog() {
+        <%--var html = '<div id="myEditor" name="articleContent"></div>';--%>
+        <%--$('#editor').append(html);--%>
+        <%--ResetEditor(editor);--%>
+        <%--UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;--%>
+        <%--UE.Editor.prototype.getActionUrl = function(action) {--%>
+        <%--    if (action == 'uploadImage') {//uploadImage对应后面的config里的配置--%>
+        <%--        //根据action判断是图片上传还是视频上传--%>
+        <%--        return '${cx}/upload/uploadimage';--%>
+        <%--    } else if (action == 'uploadfile') {--%>
+        <%--        return '${cx}/upload/uploadfile';--%>
+        <%--    }--%>
+        <%--var ue = UE.getEditor('myEditor');--%>
+        <%--ue.setContent("");--%>
+
+        <%--$("#dlg").dialog("open").dialog("setTitle", "添加文本信息");--%>
+
+
+
+
+        // var editor =new UE.ui.Editor();
+        // editor.render("editor");//创建ueditor富文本编辑器
+
+        //根据不同action上传图片和附件
+        <%--UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;--%>
+        <%--UE.Editor.prototype.getActionUrl = function(action) {--%>
+        <%--    if (action == 'uploadImage') {//uploadImage对应后面的config里的配置--%>
+        <%--        //根据action判断是图片上传还是视频上传--%>
+        <%--        return '${cx}/upload/uploadimage';--%>
+        <%--    } else if (action == 'uploadVideo') {--%>
+        <%--        return '${cx}/upload/uploadfile';--%>
+        <%--    } else {--%>
+        <%--        return this._bkGetActionUrl.call(this, action);--%>
+        <%--    }--%>
+        <%--}--%>
+
         var html = '<div id="myEditor" name="articleContent"></div>';
         $('#editor').append(html);
         ResetEditor(editor);
-        var ue = UE.getEditor('myEditor');
-        ue.setContent("");
         $("#dlg").dialog("open").dialog("setTitle", "添加文本信息");
         url = "${pageContext.request.contextPath}/article/save";
     }
@@ -219,6 +250,20 @@
         $("#dlg").dialog("close");
         resetValue();
     }
+
+
+    UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
+    UE.Editor.prototype.getActionUrl = function(action) {
+        if (action == 'uploadimage' || action == 'uploadscrawl' || action == 'uploadimage' || action == 'uploadvideo') {
+            return 'http://iiphci.ahu.edu.cn:8081/iiphci/imgUpload';
+            //'http://localhost:8080/imgUpload';为方法imgUpload的访问地址
+        } else {
+            return this._bkGetActionUrl.call(this, action);
+        }
+    }
+
+
 </script>
+
 </body>
 </html>

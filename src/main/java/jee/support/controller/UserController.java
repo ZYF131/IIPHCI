@@ -27,9 +27,9 @@ import org.apache.log4j.MDC;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author 1034683568@qq.com
- * @project_name ssm-maven
- * @date 2017-3-1
+ * @author
+ * @project_name
+ * @date
  */
 @Controller
 @RequestMapping("/user")
@@ -165,6 +165,13 @@ public class UserController {
     public String tofaceEnglish(HttpServletRequest request) {
 
         return "faceRespurce_iiphciEnglish";
+
+    }
+
+    @RequestMapping("/toMainTeacher")
+    public String toMainTeacher(HttpServletRequest request) {
+
+        return "mainTeacher";
 
     }
 

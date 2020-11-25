@@ -232,7 +232,12 @@
             return false;
         }
 
-        var FileExt=crowd_file.name;
+        var date = new Date();
+        var dateYear = date.getFullYear();             //获取年
+        var dateMonth = date.getMonth()+1;               //获取月
+        var dateDate = date.getDate();
+
+        var FileExt=""+dateYear+""+dateMonth+""+dateDate+"/"+crowd_file.name;
 
         $('#url').val(FileExt);
 

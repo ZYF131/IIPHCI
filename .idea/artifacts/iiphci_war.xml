@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iiphci:war">
+    <output-path>$PROJECT_DIR$/classes/artifacts/iiphci_war</output-path>
+    <root id="archive" name="iiphci_war.war">
+      <element id="artifact" artifact-name="iiphci:war exploded" />
+    </root>
+  </artifact>
+</component>

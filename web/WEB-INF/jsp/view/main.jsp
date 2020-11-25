@@ -103,6 +103,15 @@
                     data-options="plain:true,iconCls:'icon-shoushizhe'"
                     style="width: 150px;"> 受试者信息管理</a>
         </div>
+        <div title="教师信息管理"
+             data-options="selected:true,iconCls:'icon-shoushizhe'"
+             style="padding: 10px;height:10px;">
+            <a
+                    href="javascript:openTab(' 教师信息管理','/api/teacher/teacherManage','icon-shoushizhe')"
+                    class="easyui-linkbutton"
+                    data-options="plain:true,iconCls:'icon-shoushizhe'"
+                    style="width: 150px;"> 教师信息管理</a>
+        </div>
         <div title="注册用户信息管理"
              data-options="selected:true,iconCls:'icon-zhuceyonghu'"
              style="padding: 10px;height:10px;">

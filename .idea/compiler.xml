@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Ch10-SpringMvc1" />
+        <module name="iiphci" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ch10-SpringMvc1" target="1.8" />
+      <module name="iiphci" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -30,40 +30,6 @@
 
 
 
-                <%--var formData = new FormData();--%>
-                <%--formData.append('username',$("#userName").val());--%>
-                <%--formData.append('userpwd',$("#password").val());--%>
-                <%--formData.append('username',$("#userName").val());--%>
-                <%--formData.append('userpwd',$("#password").val());--%>
-                <%--formData.append('username',$("#userName").val());--%>
-                <%--formData.append('userpwd',$("#password").val());--%>
-                <%--formData.append('username',$("#userName").val());--%>
-                <%--formData.append('userpwd',$("#password").val());--%>
-
-                <%--$.ajax({--%>
-                <%--    url:'${cx}/api/tbUser/login',--%>
-                <%--    dataType:'text',--%>
-                <%--    type:'POST',--%>
-                <%--    async: false,--%>
-                <%--    data: formData,--%>
-                <%--    processData : false, // 使数据不做处理--%>
-                <%--    contentType : false, // 不要设置Content-Type请求头--%>
-                <%--    success: function(data){--%>
-                <%--        console.log(data);--%>
-                <%--        if (data == 'ok') {--%>
-                <%--            location.href="${cx}/api/subjectinfo/getStu/1";--%>
-                <%--        }--%>
-                <%--        else if(data='error')--%>
-                <%--        {--%>
-                <%--            alert("用户名或密码错误！");--%>
-                <%--        }--%>
-                <%--    },--%>
-                <%--    error:function(response){--%>
-                <%--        console.log(response);--%>
-                <%--    }--%>
-                <%--});--%>
-
-
                $("#adminlogin").submit();
 
 

@@ -1,9 +1,12 @@
 package jee.support.controller;
 
 
+import jee.support.model.Teacher;
+import jee.support.service.ITeacherService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -16,7 +19,11 @@ public class IndexController {
 //        return "index_iiphci";
 //    }
 
-    @RequestMapping(value={"/", "/index"})
+    @Resource(name="teacherService")
+    private ITeacherService teacherService;
+
+
+    @RequestMapping(value={"/", "/iiphci"})
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response){
         return new ModelAndView("index_iiphci");
     }
@@ -63,6 +70,11 @@ public class IndexController {
         return new ModelAndView("result_iiphci");
     }
 
+    @RequestMapping(value="/toNewsTest")
+    public ModelAndView toNewsTest(HttpServletRequest request, HttpServletResponse response){
+        return new ModelAndView("news_test");
+    }
+
     @RequestMapping(value="/toface")
     public ModelAndView toface(HttpServletRequest request, HttpServletResponse response){
         return new ModelAndView("faceRespurce_iiphci");
@@ -78,10 +90,23 @@ public class IndexController {
         return new ModelAndView("eegRespurce_iiphci");
     }
 
+    @RequestMapping(value="/lvzhao")
+    public ModelAndView lvzhao(HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+
+        return new ModelAndView("forward:/api/teacher/listHoutai2/2", null);
+
+    }
+
 
     @RequestMapping(value="/toeegEnglish")
     public ModelAndView toeegEnglish(HttpServletRequest request, HttpServletResponse response){
         return new ModelAndView("eegRespurce_iiphciEnglish");
+    }
+
+    @RequestMapping(value="/toTeacherDatials/{id}")
+    public ModelAndView toTeacherDatials(HttpServletRequest request, HttpServletResponse response,@PathVariable("id") Integer id){
+        return new ModelAndView("teacherDetails_iiphci");
     }
 
 
